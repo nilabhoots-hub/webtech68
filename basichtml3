@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Text and Links</title>
+    </head>
+    <body>
+        <del>เนื้อหาส่วนที่ 1</del>
+        <hr>
+        <p>เนื้อหาส่วนที่ 2</p>
+        <pre>
+          *
+         ***
+        *****
+       *******
+          |
+        </pre>
+        <!-- ตัวหนาและเอียง -->
+<p>นี่คือข้อความ <strong><em>สำคัญมาก</em></strong></p>
+
+<!-- ลบแล้วแทนที่ -->
+<p>ราคา: <del>฿999</del> <ins>฿599</ins></p>
+
+<!-- สูตรเคมี -->
+<p>สูตรน้ำ: H<sub>2</sub>O</p>
+<p>สูตรคำนวณพื้นที่: πr<sup>2</sup></p>
+
+<p>
+    <abbr title="HyperText Markup Language">HTML</abbr> 
+    เป็นภาษาพื้นฐานในการสร้างเว็บ
+</p>
+
+<!-- Block quote (ข้อความยาว) -->
+<blockquote cite="https://www.example.com">
+    <p>The only way to do great work is to love what you do.</p>
+</blockquote>
+
+<!-- Inline quote (ข้อความสั้น) -->
+<p>Steve Jobs กล่าวว่า <q>Stay hungry, stay foolish.</q></p>
+
+<p>ใช้คำสั่ง <code>console.log()</code> เพื่อแสดงผล</p>
+<p>กด <kbd>Ctrl</kbd> + <kbd>C</kbd> เพื่อคัดลอก</p>
+
+<a href="www.youtube.com">ข้อความที่คลิกได้</a>
+
+<!-- สร้างลิงก์ไปยัง section -->
+<a href="#section1">ไปยังหัวข้อ 1</a>
+<a href="#section2">ไปยังหัวข้อ 2</a>
+
+<!-- กำหนด id ให้กับ element ที่ต้องการลิงก์ไปถึง -->
+<h2 id="section1">หัวข้อ 1</h2>
+<p>เนื้อหาของหัวข้อ 1...</p>
+
+<h2 id="section2">หัวข้อ 2</h2>
+<p>เนื้อหาของหัวข้อ 2...</p>
+
+<a href="mailto:info@example.com">ส่งอีเมลหาเรา</a>
+<!-- พร้อม Subject และ Body -->
+<a href="mailto:info@example.com?subject=สอบถาม&body=สวัสดีครับ">
+    ส่งอีเมลพร้อมหัวข้อ
+</a>
+
+<a href="tel:+66812345678">โทร 081-234-5678</a>
+    </body>
+</html>
