@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Food Around SU</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                Food Around SU
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">หน้าแรก</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#food-section">ของกินรอบม.ศิลปากร</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#creator-section">ผู้จัดทำ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container py-5 text-center">
+        <h1 class="display-4 text-orange mb-4">🐷 หมูกะทะ บ้านลูกหมู 🐷</h1>
+        <!--ใส่อาหารตรงนี้-->
+
+       
+        <style>
+            .carousel-item img {
+                width: 100%;
+                height: 380px;
+                /* ความสูงรูปเท่ากัน */
+                object-fit: cover;
+                /* รักษาสัดส่วนภาพ */
+                border-radius: 10px;
+            }
+        </style>
+
+        
+
+
+        <!--อันแรก-->
+
+        <div class="container mt-5">
+
+            <div class="row align-items-center">
+
+                <!-- ซ้าย : ข้อมูลร้าน -->
+                <div class="col-md-6 text-start lh-lg">
+
+                    <h2 class="fw-bold mb-3">หมูกะทะ บ้านลูกหมู</h2>
+
+                    <p class="mb-4">
+                        ร้านนี้คือกินบ่อยมากขายเป็นชุด ราคาดี เริ่มต้นชุดละ 250
+                        วัตถุดิบดี กุ้งคือสดสุดๆ หมูสไลด์มาบางๆ น้ำจิ้มอร่อยไม่เลี่ยน คือเมนูสามารถสั่งเพิ่มเติมได้
+                        แต่ก็เสียตั้งเป็นจานๆ เป็นร้านหมูกะที่ถูกต้อง กะหล่ำปลี มาม่าส้มตำ บุฟเฟ่ต์ 
+                        ร้านอยู่ใกล้ๆ กับข้าวมันไก่ป่าจ๋า บรรยากาศดี้
+                        ตอนเก็บตั้งจะมีน้ำ หวานมาเสิร์ฟพรีให้ล้างปากด้วยคนละแก้วเลย 
+                        อร่อยสดชื่นๆ เมนูน้ำก็คละกันไปแล้วแต่วัน
+                    </p>
+
+                    <h5 class="fw-semibold">จุดเด่นของร้าน</h5>
+
+                    <ul class="ps-3">
+                        <li>เปิดทุกวัน 15:00 - 0:00 น.</li>
+                        <li>กะหล่ำปลี มาม่า ส้มตำ เติมไม่อั้น</li>
+                        <li>วัตถุดิบสดสะอาด มีคุณภาพ</li>
+                        <li>สไตล์มินิมอล บรรยากาศดี</li>
+                    </ul>
+
+                </div>
+
+
+                <!-- ขวา : Carousel -->
+                <div class="col-md-6 mb-4">
+
+                    <div id="carouselMookata" class="carousel slide" data-bs-ride="carousel">
+
+                        <div class="carousel-inner">
+
+                            <div class="carousel-item active">
+                                <img src="https://lh3.googleusercontent.com/p/AF1QipN95wYfUtdX11hcY4oGlmDCZ7Peva3imtsTEemB=w243-h203-n-k-no-nu"
+                                    alt="Slide 1">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAwepAGF9c51m8z0SdWDHyUXcqA5kJ03bfMbFUi3oMHY4UoVdFrr7S5aRMTWdiPozZGrll4UmuurylXrkU-pqUtvJY-eOhBk3nU2f4DiAVKyOcwlOhh-IPCtjCpowPuuRwqLKO1ejscg=w243-h174-n-k-no-nu"
+                                    alt="Slide 2">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAwepG2rvLQXeM0TXTaUVyWOLZyo0YAFnbZY8ZP3LsSYgMiKhboC1mMGP1SlrJxHTt9Rr2wlNlVMznKXRP1D8k93kFzS3KyAxQEFzxHPx8JC5mqx7jtD5JAi7Wfj6_wWghij45xEna=w243-h244-n-k-no-nu"
+                                    alt="Slide 3">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAweo8qchVF8drssF1WPVM23jPj8kgyaZ2qvT8_oQrQuFMer8XGJY2zYJwQBRp3eMB29KZsjwqhnabPqv9_Hf-oZoEuFOfhdy9ONOo6wXE5kQG2C6RuEvcIeKMx6xm8fseGEWefK00=w243-h174-n-k-no-nu"
+                                    alt="Slide 4">
+                            </div>
+
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselMookata"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselMookata"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <footer class=" text-dark py-5 mt-5" id="creator-section" style="scroll-margin-top: 100px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 mb-3">
+                        <h5>ผู้จัดทำ</h5>
+                        <p class="text secondary">ธณิณธร แซ่ลี้</p>
+                        <p class="text-secondary">มณฆวรรษ ถนอมชาติ</p>
+                        <p class="text-secondary">ธนกร ม่วงเจริญ</p>
+                        <p class="text-secondary">ศิรชัช สุขเกษม</p>
+                        <p class="text-secondary">ศุภโชติ นิลบุตร</p>
+                    </div>
+
+                    <div class="col-md-4 mb-3">
+                        <h5>เมนูทางลัด</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-secondary">หน้าแรก</a></li>
+                            <li><a href="#menu-section" class="text-secondary">เมนูอาหาร</a></li>
+                        </ul>
+                    </div>
+                    <hr class="bg-secondary">
+                    <div class="text-center text-secondary">
+                        <small>Food Around SU</small>
+                    </div>
+                </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
